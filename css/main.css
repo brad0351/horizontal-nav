@@ -1,15 +1,14 @@
 html {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
-
-  body {
-    margin: 0;
-    background-color: #dbd6cf;
-  }
+body {
+  margin: 0;
+  background-color: #dbd6cf;
+}
 
 h1 {
   text-align: center;
